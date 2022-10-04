@@ -16,5 +16,7 @@ I'm a pursuing full stack developer...
 only and only learning...
 
 ## Demo
-run node src/app.js
+run node src/app.js 
+https://weatherapp.up.railway.app/weather
+
 
