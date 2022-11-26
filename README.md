@@ -2,7 +2,7 @@
 # Weather App
 
 This is weather app with real time api.
-
+https://weatherapps.up.railway.app/weather
 
 ## Features
 
@@ -16,5 +16,6 @@ I'm a pursuing full stack developer...
 only and only learning...
 
 ## Demo
-run node src/app.js
+run node src/app.js 
+
 
