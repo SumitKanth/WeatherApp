@@ -2,7 +2,7 @@
 # Weather App
 
 This is weather app with real time api.
-https://weatherapp.up.railway.app/weather
+https://weatherapps.up.railway.app/weather
 
 ## Features
 
