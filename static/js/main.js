@@ -20,7 +20,7 @@ const getInfo = async(event) => {
     }else{
         try{
             // API &unit=metric taaki celcius m data mile
-            let url = `http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=ceb2b0191f6b89a9a324cd63edcfe09f`;
+            let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=ceb2b0191f6b89a9a324cd63edcfe09f`;
             const fetchData = await fetch(url);
             const data = await fetchData.json() // data ko json ke form m kr dega;
             // console.log(data);
