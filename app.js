@@ -6,9 +6,9 @@ const app = express(); // All the methods & property of express are assign to ap
 
 const port = process.env.PORT || 3000;
 
-const static_path = path.join(__dirname, '../static')
-const template_path = path.join(__dirname, '../templates/views');     // Line number 14 pe jo h
-const particals_path = path.join(__dirname, '../templates/partials');
+const static_path = path.join(__dirname, '/static')
+const template_path = path.join(__dirname, './templates/views');     // Line number 14 pe jo h
+const particals_path = path.join(__dirname, './templates/partials');
 
 // View Engine Handelbars Stuff
 app.set('view engine', 'hbs')
